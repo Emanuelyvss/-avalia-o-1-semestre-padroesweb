@@ -179,6 +179,36 @@ h2{
 
 }
 
+h3{
+
+    font-size: 24px;
+
+    color: #003366;
+
+    text-transform: uppercase;
+
+}
+
+h4{
+
+    font-size: 24px;
+
+    color: #003366;
+
+    text-transform: uppercase;
+
+}
+
+h5{
+
+    font-size: 24px;
+
+    color: #003366;
+
+    text-transform: uppercase;
+
+}
+
 span{
 
     font-weight: bold;
