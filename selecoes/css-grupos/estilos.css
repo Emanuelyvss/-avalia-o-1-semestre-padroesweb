@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2? family= Open+Sans:ital,wght@0,400;1,500 & display=swap');
 
 
@@ -7,39 +8,39 @@
 /* Aqui o CSS DO MENU-------------------------------------------------------------*/
 
 #menu_horizontal ul {
-
+  
     list-style-type: none;
     padding: 0%;
-
+    
 
 }
 
 #menu_horizontal ul {
-
-    background-color: black;
-
+  
+      background-color: black;
+      
 
 }
 
 #menu_horizontal ul li {
-
+    
     display: inline;
     position: relative;
 
 }
 
-#menu_horizontal ul li a {
+#menu_horizontal ul li a{
     color: #fff;
     padding: 20px;
     text-decoration: none;
     display: inline-block;
     transition: background .6s;
-
+      
 }
 
 #menu_horizontal li a:hover {
 
-    background-color: rgb(144, 78, 206);
+            background-color: rgb(144, 78, 206);
 }
 
 
@@ -49,26 +50,26 @@
 /* -----------------------SUBMENU----------------------------------*/
 
 #menu_horizontal ul ul {
-
-    display: none;
+  
+    display:  none;
     left: 0;
     position: absolute
 }
 
 #menu_horizontal ul li:hover ul {
-
+  
     display: block;
 }
 
 #menu_horizontal ul ul {
-
+  
     width: 200px;
 }
 
 
 #menu_horizontal ul ul li a {
-
-    display: block;
+  
+    display:  block;
 }
 
 
@@ -79,26 +80,26 @@
 /* -----------------------SUBMENU GRUPOS----------------------------------*/
 
 #sub-menu-grupos ul ul {
-
-    display: none;
+  
+    display:  none;
     left: 0;
     position: absolute
 }
 
 #msub-menu-grupos ul li:hover ul {
-
+  
     display: block;
 }
 
 #sub-menu-grupos ul ul {
-
+  
     width: 200px;
 }
 
 
 #sub-menu-grupos ul ul li a {
-
-    display: block;
+  
+    display:  block;
 }
 
 
@@ -108,9 +109,8 @@
 /* Aqui começa o CSS da tabela-------------------------------------------------------------*/
 
 
-table, td, th {
+table, td, th {    
     border: 3px solid #ddd;
-    padding: 20px;
 
 }
 
@@ -122,6 +122,12 @@ table {
     margin: auto;
 }
 
+th, td {
+    padding: 20px;
+  
+}
+
+
 
 /* ---------------------------------------------------------------------------*/
 
@@ -130,7 +136,7 @@ table {
 
 
 
-body {
+body{
     font-family: Arial, Verdana, Tahoma, Sans-Serif;
     margin: 0 auto;
     color: #030000;
@@ -141,19 +147,19 @@ body {
 
 }
 
-p {
+p{
 
     line-height: 20px;
     text-align: justify;
     text-align: center;
     font-family: Verdana, Geneva, Arial, sans-serif;
-    margin: 50px;
-    line-height: 250%;
+     margin: 50px;
+     line-height: 250%;
 
 
 }
 
-h1 {
+h1{
 
     font-size: 24px;
 
@@ -163,7 +169,7 @@ h1 {
 
 }
 
-h2 {
+h2{
 
     font-size: 24px;
 
@@ -173,7 +179,7 @@ h2 {
 
 }
 
-span {
+span{
 
     font-weight: bold;
 
@@ -182,5 +188,4 @@ span {
     background-color: #FFFF00;
 
 }
-
-
+/* ---------------------------------------------------------------------------*/
