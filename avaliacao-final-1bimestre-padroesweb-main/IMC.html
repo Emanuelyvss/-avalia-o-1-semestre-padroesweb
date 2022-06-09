@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+
+<body>
+
+            <h1>Calculador de IMC</h1>
+
+                <h2>Altura (cm) </h2>
+                <input id="height" type="number">
+    
+
+            
+                <h2>Peso (kg) </h2>
+                <input id="weight" type="number">
+        
+
+                <h2>Cor</h2>
+                <label><input type="radio" name="cores" value="red"
+                        onclick="document.getElementById('media').style.color='red'">Vermelho</label>
+                <label><input type="radio" name="cores" value="blue"
+                        onclick="document.getElementById('media').style.color='blue'">Azul</label>
+                <label><input type="radio" name="cores" value="green"
+                        onclick="document.getElementById('media').style.color='green'">Verde</label>
+            
+            <br>
+            
+            
+            <p id="media">IMC:</p>
+         
+            <button onclick="calculate()"> Calcular IMC </button> <br> 
+    <script>
+        function calculate(){
+            var height = (document.getElementById("height").value) / 100
+            var weight = document.getElementById("weight").value
+
+            var imc = weight / height ** 2;
+            var text = ""
+            if (imc < 20) {
+                text = "Você está abaixo do peso"
+            } else if (imc > 20 & imc < 25) {
+                text = "Você está normal"
+            } else if (imc > 25 & imc < 30) {
+                text = "Você está com sobrepeso"
+            } else if (imc > 30 & imc < 35) {
+                text = "Você está com obesidade 1"
+            } else if (imc > 35 & imc < 40) {
+                text = "Você está com obesidade 2"
+            } else if (imc > 40) {
+                text = "Você está com obesidade 3"
+            }
+            document.getElementById("media").innerHTML = text
+        }
+        
+
+    </script>
+
+</body>
+
+</html>
